@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wijesijp.github.io/personal_web/sitemap.xml
