@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GridMusic Privacy Policy — Janaka Wijesena</title>
+<meta name="description" content="Privacy policy for the GridMusic app: no personal data is collected, and the app works completely offline.">
+<link rel="canonical" href="https://wijesena.net/gridmusic/privacy.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="GridMusic Privacy Policy — Janaka Wijesena">
+<meta property="og:description" content="Privacy policy for the GridMusic app: no personal data is collected, and the app works completely offline.">
+<meta property="og:url" content="https://wijesena.net/gridmusic/privacy.html">
+<meta property="og:image" content="https://wijesena.net/gridmusic/icon.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="GridMusic Privacy Policy — Janaka Wijesena">
+<meta name="twitter:description" content="Privacy policy for the GridMusic app: no personal data is collected, and the app works completely offline.">
+<meta name="twitter:image" content="https://wijesena.net/gridmusic/icon.png">
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  .app-hero{display:flex; gap:24px; align-items:center; margin-bottom:28px;}
+  .app-hero img{width:104px; height:auto; flex-shrink:0;}
+  .app-hero h1{margin:0 0 4px;}
+  .app-hero .tagline{margin:0;}
+  main h3{margin-top:26px;}
+  main ul{padding-left:1.2em;}
+  main li{margin:4px 0;}
+  .effective{color:var(--text-dim); font-size:0.88rem; margin:-18px 0 24px;}
+  main.standalone{margin:0 auto;}
+  .crumbs{font-size:0.85rem; margin-bottom:22px;}
+  @media (max-width:760px){ .app-hero{flex-direction:column; text-align:center;} }
+</style>
+</head>
+<body>
+<div class="layout">
+  <main class="standalone">
+    <div class="crumbs"><a href="index.html">← GridMusic</a></div>
+    <h1 class="page-title">GridMusic Privacy Policy</h1>
+    <p class="effective">Effective 3 October 2026</p>
+
+    <p>This policy covers the GridMusic app for Android and iOS, made by Janaka Wijesena (“I”, “me”). In short: <strong>GridMusic does not collect, store, or share any personal information.</strong></p>
+
+    <h3>Information collected</h3>
+    <p>None. GridMusic has no accounts or sign-in, and does not collect your name, email, location, contacts, device identifiers, or usage data.</p>
+
+    <h3>Network access</h3>
+    <p>GridMusic works completely offline. All sounds and fonts are built into the app, and it makes no network requests — nothing you do in the app is sent anywhere.</p>
+
+    <h3>Data stored on your device</h3>
+    <p>Patterns you choose to save are stored only on your device, inside the app's own storage. They never leave your device, and they are deleted when you uninstall the app. You can also delete them from within the app.</p>
+
+    <h3>Permissions</h3>
+    <p>GridMusic does not ask for access to your microphone, camera, location, contacts, photos or files.</p>
+
+    <h3>Advertising, analytics and third parties</h3>
+    <p>GridMusic contains no advertising, no analytics or crash-reporting services, and no third-party tracking. No data is sold or shared with anyone.</p>
+
+    <h3>Children</h3>
+    <p>Because GridMusic collects no information from anyone, it collects none from children.</p>
+
+    <h3>Changes to this policy</h3>
+    <p>If this policy changes, the updated version will be posted on this page with a new effective date.</p>
+
+    <h3>Contact</h3>
+    <p>Questions about this policy: <span class="em" data-u="janaka.prasad" data-d="gmail.com">janaka.prasad [at] gmail [dot] com</span></p>
+
+    <footer>© 2026 Janaka Wijesena</footer>
+  </main>
+</div>
+<script>
+  // Build the email link in the browser so the full address never appears
+  // in the page source, where spam crawlers harvest it.
+  document.querySelectorAll(".em").forEach(function (el) {
+    var a = document.createElement("a");
+    var addr = el.dataset.u + "@" + el.dataset.d;
+    a.href = "mai" + "lto:" + addr;
+    a.textContent = addr;
+    el.replaceWith(a);
+  });
+</script>
+</body>
+</html>

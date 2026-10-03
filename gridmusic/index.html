@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GridMusic — Janaka Wijesena</title>
+<meta name="description" content="GridMusic is a generative music app: movers hop across a grid of colored areas and every node they land on plays a note. Support and contact.">
+<link rel="canonical" href="https://wijesena.net/gridmusic/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="GridMusic — Janaka Wijesena">
+<meta property="og:description" content="GridMusic is a generative music app: movers hop across a grid of colored areas and every node they land on plays a note. Support and contact.">
+<meta property="og:url" content="https://wijesena.net/gridmusic/">
+<meta property="og:image" content="https://wijesena.net/gridmusic/icon.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="GridMusic — Janaka Wijesena">
+<meta name="twitter:description" content="GridMusic is a generative music app: movers hop across a grid of colored areas and every node they land on plays a note. Support and contact.">
+<meta name="twitter:image" content="https://wijesena.net/gridmusic/icon.png">
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  .app-hero{display:flex; gap:24px; align-items:center; margin-bottom:28px;}
+  .app-hero img{width:104px; height:auto; flex-shrink:0;}
+  .app-hero h1{margin:0 0 4px;}
+  .app-hero .tagline{margin:0;}
+  main h3{margin-top:26px;}
+  main ul{padding-left:1.2em;}
+  main li{margin:4px 0;}
+  .effective{color:var(--text-dim); font-size:0.88rem; margin:-18px 0 24px;}
+  main.standalone{margin:0 auto;}
+  .crumbs{font-size:0.85rem; margin-bottom:22px;}
+  @media (max-width:760px){ .app-hero{flex-direction:column; text-align:center;} }
+</style>
+</head>
+<body>
+<div class="layout">
+  <main class="standalone">
+    <div class="app-hero">
+      <img src="icon.png" alt="GridMusic app icon">
+      <div>
+        <h1>GridMusic</h1>
+        <p class="tagline">A grid that makes music</p>
+      </div>
+    </div>
+
+    <p class="lede">GridMusic is a generative music machine for Android and iOS. Movers hop from node to node across eight colored areas, following the arrows, and every node they land on plays its note — piano, marimba, saxophone, bass and drums. Tap a node to turn its arrow, and use the tools to repeat, mute, randomize or add movers: you shape the circuit, the grid makes the music.</p>
+
+    <div class="highlight">
+      <div class="label">Support &amp; contact</div>
+      <p style="margin:6px 0 0;">Questions, bug reports or feedback? Email <span class="em" data-u="janaka.prasad" data-d="gmail.com">janaka.prasad [at] gmail [dot] com</span> — please mention your device and app version (shown on the app's About screen).</p>
+    </div>
+
+    <h3>Privacy</h3>
+    <p>GridMusic collects no personal data, has no accounts, ads or analytics, and works completely offline. Read the <a href="privacy.html">privacy policy</a>.</p>
+
+    <h3>Credits</h3>
+    <ul>
+      <li>Piano: Upright Piano KW — FreePats project, CC0 1.0</li>
+      <li>Marimba, saxophone, bass and drums: GeneralUser GS — S. Christian Collins</li>
+      <li>Fonts: Big Shoulders Display and IBM Plex Mono — SIL Open Font License 1.1</li>
+    </ul>
+
+    <footer>© 2026 Janaka Wijesena</footer>
+  </main>
+</div>
+<script>
+  // Build the email link in the browser so the full address never appears
+  // in the page source, where spam crawlers harvest it.
+  document.querySelectorAll(".em").forEach(function (el) {
+    var a = document.createElement("a");
+    var addr = el.dataset.u + "@" + el.dataset.d;
+    a.href = "mai" + "lto:" + addr;
+    a.textContent = addr;
+    el.replaceWith(a);
+  });
+</script>
+</body>
+</html>
