@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wijesena.net/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
   <url>
     <loc>https://wijesena.net/career.html</loc>
@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://wijesena.net/games.html</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
   <url>
     <loc>https://wijesena.net/interactive.html</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://wijesena.net/projects.html</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
   <url>
     <loc>https://wijesena.net/research.html</loc>
@@ -31,5 +31,13 @@
   <url>
     <loc>https://wijesena.net/skills.html</loc>
     <lastmod>2026-07-29</lastmod>
+  </url>
+  <url>
+    <loc>https://wijesena.net/gridmusic/</loc>
+    <lastmod>2026-10-04</lastmod>
+  </url>
+  <url>
+    <loc>https://wijesena.net/gridmusic/privacy.html</loc>
+    <lastmod>2026-10-04</lastmod>
   </url>
 </urlset>
